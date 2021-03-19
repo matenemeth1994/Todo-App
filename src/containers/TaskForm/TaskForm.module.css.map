@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,SADK,CACL,OAAO,CAAC;EACN,UAAU,EAAE,IAAI;CACjB;;AAHL,AAKI,SALK,CAKL,CAAC,CAAC;EACA,YAAY,EAAE,CAAC;CAChB",
+    "sources": [
+        "TaskForm.module.scss"
+    ],
+    "names": [],
+    "file": "TaskForm.module.css"
+}

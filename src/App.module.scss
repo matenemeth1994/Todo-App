@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(228, 193, 38);
   }
   
   .app {
-    font-family: "Titillium Web", sans-serif;
-    background-color: rgb(114, 114, 114);
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(228, 193, 38);
     padding: 10px;
+    text-align: center;
   
     .notLoggedIn {
       color: white;
+      font-family: 'Indie Flower', cursive;
     }
   
     .loggedIn {
-      background-color: rgb(114, 114, 114);
+      background-color: rgb(228, 193, 38);
       color: white;
     }
   
@@ -23,7 +27,7 @@ body {
       border: none;
       color: white;
       font-weight: 700;
-      font-family: "Titillium Web", sans-serif;
+      font-family: 'Indie Flower', cursive;
       margin: 0 auto;
       display: block;
   

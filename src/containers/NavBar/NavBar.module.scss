@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .navBar {
     background-color: black;
     color: tomato;
@@ -5,7 +7,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    font-family: "Titillium Web", sans-serif;
+    font-family: 'Indie Flower', cursive;
   
     .login {
       margin-bottom: 10px;

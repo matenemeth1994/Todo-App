@@ -10,10 +10,10 @@ const NavBar = (props) => {
   ) : (
     <Button btnText="Sign in" handleClick={signInWithRedirect} />
   );
-
+  
   return (
     <div className={styles.navBar}>
-      <h1>TaskMASTER</h1>
+      <h1>To-do App</h1>
       <div className={styles.login}>{buttonsJSX}</div>
     </div>
   );

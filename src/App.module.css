@@ -1,0 +1,63 @@
+body {
+  background-color: #e4c126;
+}
+
+.app {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #e4c126;
+  padding: 10px;
+  text-align: center;
+}
+
+.app .notLoggedIn {
+  color: white;
+}
+
+.app .loggedIn {
+  background-color: #e4c126;
+  color: white;
+}
+
+.app .delete {
+  width: 80px;
+  height: 30px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0 auto;
+  display: block;
+}
+
+.app .delete:hover {
+  cursor: pointer;
+}
+
+.app .toDos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 426px) {
+  .app .toDos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */

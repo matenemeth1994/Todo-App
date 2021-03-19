@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./TaskCard.module.scss";
-// import Button from "../Button";
 
 const TaskCard = ({ item }) => {
   const { taskCompletionDate, taskInfo, taskStartDate } = item;
